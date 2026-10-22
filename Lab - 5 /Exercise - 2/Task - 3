@@ -1,0 +1,14 @@
+def display_report(students):
+    for student in students:
+        student_id = student[0]
+        name = student[1]
+        marks = student[2]
+
+        average = calculate_average(marks)
+        performance = classify_performance(average)
+
+        print("Student ID:", student_id)
+        print("Name:", name)
+        print("Average:", round(average, 2))
+        print("Performance:", performance)
+        print()
