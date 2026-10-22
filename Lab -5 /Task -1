@@ -1,7 +1,0 @@
-def display_resources(resources):
-    for resource in resources:
-        print("ID:", resource[0])
-        print("Name:", resource[1])
-        print("Category:", resource[2])
-        print("Available Quantity:", resource[3])
-        print()
