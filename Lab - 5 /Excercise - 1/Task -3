@@ -1,0 +1,4 @@
+def find_unavailable(resources):
+for resource in resources:
+if resource[3] == 0:
+print(resource)
