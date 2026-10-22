@@ -1,0 +1,4 @@
+def search_by_category(resources, category):
+for resource in resources:
+if resource[2] == category:
+print(resource)
